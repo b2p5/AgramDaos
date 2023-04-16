@@ -1,0 +1,101 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    color: #333;
+  }
+  
+.boton{
+    background-color: #4CAF50;
+    color: rgb(252, 252, 252);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 26px;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    color: rgb(38, 23, 204);
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+
+  
+  table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .descrip th{
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(231, 231, 234);
+  }
+
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .task {
+    font-weight: bold;
+  }
+
+  .date {
+    font-style: italic;
+  }
+
+  .percent {
+    font-size: 0.9em;
+  }

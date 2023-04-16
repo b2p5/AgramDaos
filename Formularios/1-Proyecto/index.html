@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de Proyecto</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Formulario de Proyecto</h1>
+		<form>
+			<div class="form-group">
+				<label for="responsable-proyecto">Responsable del proyecto:</label>
+				<input type="text" id="responsable-proyecto" name="responsable-proyecto" required>
+			</div>
+			<div class="form-group">
+				<label for="nombre-proyecto">Nombre del proyecto:</label>
+				<input type="text" id="nombre-proyecto" name="nombre-proyecto" required>
+			</div>
+			<div class="form-group">
+				<label for="logo-proyecto">Logo del proyecto:</label>
+				<div class="logo-input">
+					<label for="logo-upload" class="upload-label"><i class="fas fa-upload"></i> Subir Logo</label>
+					<input type="file" id="logo-upload" name="logo-proyecto" accept="image/*" required>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="descripcion-proyecto">Descripción del proyecto:</label>
+				<textarea id="descripcion-proyecto" name="descripcion-proyecto" required></textarea>
+			</div>
+			<div class="form-group">
+				<label for="objetivos-proyecto">Objetivos a conseguir:</label>
+				<textarea id="objetivos-proyecto" name="objetivos-proyecto" required></textarea>
+			</div>
+			<div class="form-group">
+				<label for="url-proyecto">URL de la web del proyecto:</label>
+				<input type="url" id="url-proyecto" name="url-proyecto" required>
+			</div>
+			<div class="form-group">
+				<label for="estado-proyecto">Estado del proyecto:</label>
+				<select id="estado-proyecto" name="estado-proyecto" required>
+					<option value="">Selecciona un estado</option>
+					<option value="opcion-1">Creación</option>
+					<option value="opcion-2">Captación Colaboradores</option>
+					<option value="opcion-3">Estudio previo</option>
+                    <option value="opcion-4">Desarrollo-Pruebas</option>
+                    <option value="opcion-5">Marketing</option>
+                    <option value="opcion-6">En explotación</option>
+				</select>
+			</div>
+			<button type="submit">Enviar</button>
+		</form>
+	</div>
+	<script src="https://kit.fontawesome.com/ed2c76e716.js" crossorigin="anonymous"></script>
+</body>
+</html>
