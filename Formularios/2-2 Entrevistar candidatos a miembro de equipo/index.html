@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Entrevista a candidato</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<div class="container">
+		<div>
+			<h1>Entrevista para miembro de equipo</h1>
+			<h4>Proyecto: <input type="text" value="PPPPPPPPP" readonly disabled style="user-select: none;"> </h4>
+			<label>Tarea :   </label><input type="text" value="Tarea" readonly disabled style="user-select: none;">
+			<br>
+			<label>Fechas de la tarea: </label><input type="text" value="dd/mm/aaaa" readonly disabled style="user-select: none;"> 
+			<label>hasta: </label>
+			<input type="text" value="dd/mm/aaaa" readonly disabled style="user-select: none;"> 
+			<label>Porcentaje de la tarea: </label><input type="text" value="NN %" readonly disabled style="user-select: none;"> 
+
+		</div>
+		<br><br>
+		<div>
+			<form>
+				<div class="form-group">
+					<label>Descripción de la motivación:</label>
+					<textarea  readonly disabled style="user-select: none;">Descripción de la motivación</textarea>
+				</div>
+			
+				<div class="form-group">
+					<label>Alias del candidato:</label> <input type="text" value="AAAAAAAAAA" > 
+				</div>
+				<div class="form-group">
+					<label for="nombre-proyecto">Canal de comunicación:</label>
+					<input type="text" id="nombre-proyecto" name="nombre-proyecto" value="Canal de comunicación" required>
+				</div>
+
+				<div class="form-group">
+					<label for="objetivos-proyecto">Calificación de disponibilidad ( 1 a 5):</label>
+					<input type="text" id="nombre-proyecto" name="nombre-proyecto" value="3" required>
+				</div>
+				<div class="form-group">
+					<label for="objetivos-proyecto">Calificación de formación ( 1 a 5):</label>
+					<input type="text" id="nombre-proyecto" name="nombre-proyecto" value="3" required>
+				</div>
+				<div class="form-group">
+					<label for="objetivos-proyecto">Calificación de implicación ( 1 a 5):</label>
+					<input type="text" id="nombre-proyecto" name="nombre-proyecto" value="3" required>
+				</div>
+				<div class="form-group">
+					<label for="logo-proyecto">Notas:</label>
+					<textarea >Notas recogidas por el entrevistador.</textarea>
+				</div>
+
+				<div class="form-group">
+					<label for="estado-proyecto">Calificación global del candidato:</label>
+					<select id="estado-proyecto" name="estado-proyecto" required>
+						<option value="">Selecciona un estado</option>
+						<option value="opcion-2">Aceptado</option>
+						<option value="opcion-3">En reserva</option>
+        	            <option value="opcion-4">Descartado</option>
+					</select>
+				</div>
+
+				<button type="submit">Grabar</button>
+
+			</form>
+		</div>
+	</div>
+</body>
+</html>
